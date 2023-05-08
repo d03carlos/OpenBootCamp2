@@ -1,0 +1,11 @@
+El problema de utilizar un Vector con la capacidad por defecto si tuviésemos 1000 elementos
+para ser añadidos al mismo es que en un primer momento el Vector tendrá una capacidad
+predeterminada, por ejemplo, 10 elementos. Cuando los primeros 10 elementos son añadidos,
+el Vector se redimensiona automáticamente y duplica su tamaño, pasando a tener una capacidad de 20 elementos.
+Si seguimos añadiendo elementos y llegamos a 20, el Vector volverá a redimensionarse y su capacidad
+pasará a ser de 40 elementos, y así sucesivamente. Este proceso de redimensionamiento automático
+puede ser muy costoso en términos de memoria y tiempo de ejecución, ya que requiere copiar todos
+los elementos del Vector a una nueva estructura de datos con mayor capacidad. Por lo tanto,
+si se sabe que se van a añadir muchos elementos a un Vector, es recomendable especificar una
+capacidad inicial adecuada para evitar el redimensionamiento automático innecesario y mejorar
+el rendimiento de la aplicación.
