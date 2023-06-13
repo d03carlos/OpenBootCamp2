@@ -1,5 +1,8 @@
 package Ejercicios;
-
+/*
+ * Se aplica el patro iterator
+ * Este patron es adecuado para lograr el objetivo específico del código, que es imprimir las combinaciones de elementos de ambos arreglos.
+ */
 public class ArrayB {
     public static void main(String[] args) {
         int[] numeros1 ={1,2,3,4,5};
