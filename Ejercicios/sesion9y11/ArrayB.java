@@ -1,4 +1,4 @@
-package Ejercicios;
+package Ejercicios.sesion9y11;
 /*
  * Se aplica el patro iterator
  * Este patron es adecuado para lograr el objetivo específico del código, que es imprimir las combinaciones de elementos de ambos arreglos.
