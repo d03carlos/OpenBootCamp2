@@ -30,3 +30,4 @@ delimiter ;
 call ingresarPersona('jana', 20);
 select *from persona;
 call listarPersona();
+call eliminarPersona(5);
